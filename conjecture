@@ -18,7 +18,7 @@ int main()
          else
             a=(a*3)+1;
        }
-      printF( "1\n");
+      printf( "1\n");
     }
     else
     {
