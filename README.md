@@ -1,5 +1,5 @@
-# 3.21 This is a code for 3.21 question in the OS Concept book
-the question is:
+# 3.21 This is a code for 3.21 question in the OS Concept book.
+The question is:
 The Collatz conjecture concerns what happens when we take any positive integer n and apply the following algorithm:
 n =
 { n∕2, if n is even
