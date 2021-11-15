@@ -1,4 +1,5 @@
 # 3.21 This is a code for 3.21 and 4.22 question in the OS Concept book.
+
 The question is:
 3.21-
 The Collatz conjecture concerns what happens when we take any positive integer n and apply the following algorithm:
@@ -18,6 +19,8 @@ necessary for the child to output the sequence. Have the parent invoke
 the wait() call to wait for the child process to complete before exiting
 the program. Perform necessary error checking to ensure that a positive
 integer is passed on the command line.
+
+
 4.22-
 Write a multithreaded program that calculates various statistical values
 for a list of numbers. This program will be passed a series of numbers
