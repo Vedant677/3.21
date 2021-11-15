@@ -43,7 +43,7 @@ void *th2()
 int main()
 {
     int count =0;
-    printf("enter the number of elements you want to enter");
+    printf("enter the number of elements you want to enter: ");
     scanf("%d",&n);
     for(i=0; i<n; i++)
     {
