@@ -12,7 +12,7 @@ int min;
 int max;
 float sd = 0;
 
-void *th()
+void *th()    //average calculation
 {
         float b=0;
         for(i=0;i<n;i++)
@@ -20,7 +20,7 @@ void *th()
         avg=b/n;       
 }
 
-void *th1()
+void *th1()   // minimum number calculation
 {
         min=arr[0];
         for(i=0;i<n;i++)
@@ -28,7 +28,7 @@ void *th1()
                         min=arr[i];     
 }
 
-void *th2()
+void *th2()  // maximum number calculation
 {
         max=arr[0];
         for(i=0;i<n;i++)
@@ -36,7 +36,7 @@ void *th2()
                         max=arr[i];                       
 }
 
-void *th3()
+void *th3() // standard deviation calculation
 {
     float sum = 0;
     float mean;
