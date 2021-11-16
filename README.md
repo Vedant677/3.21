@@ -20,6 +20,10 @@ the wait() call to wait for the child process to complete before exiting
 the program. Perform necessary error checking to ensure that a positive
 integer is passed on the command line.
 
+REFRENCES FOR THE CODE:
+- Used gfg for 3.21 question and the ppt on lecture-5
+- https://www.geeksforgeeks.org/fork-system-call/
+
 
 ## 4.22-
 Write a multithreaded program that calculates various statistical values
@@ -41,8 +45,6 @@ deviation.)
 
 
 REFRENCES FOR THE CODE:
-- Used gfg for 3.21 question and the ppt on lecture-5
-- https://www.geeksforgeeks.org/fork-system-call/
 - For multithreading i refered a youtube video and then GFG for better understanding.
 - I refered homeworklib for some steps also.
 - https://www.homeworklib.com/qaa/1707080/write-in-c-program-write-a-multi-threaded-program
