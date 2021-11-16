@@ -43,19 +43,18 @@ int main()
         printf("enter the number: ");
         scanf("%d",&arr[i]);
     }
-    int t;
    
     pthread_t t1;
     pthread_t t2;
     pthread_t t3;
     
-        t=pthread_create(&t1,NULL,&th,NULL);
+        pthread_create(&t1,NULL,&th,NULL);
         pthread_join(t1,NULL);
     
-        t=pthread_create(&t2,NULL,&th1,NULL);
+        pthread_create(&t2,NULL,&th1,NULL);
         pthread_join(t2,NULL);
 
-        t=pthread_create(&t3,NULL,&th2,NULL);
+        pthread_create(&t3,NULL,&th2,NULL);
         pthread_join(t3,NULL);
  
     printf("Average value is %f \n",avg);
