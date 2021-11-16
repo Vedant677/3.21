@@ -59,7 +59,7 @@ int main()
         pthread_join(t3,NULL);
  
     printf("Average value is %f \n",avg);
-    printf("Minimum  value is %d",min);
-    printf("Maximum  value is %d",max);
+    printf("Minimum  value is %d \n",min);
+    printf("Maximum  value is %d \n",max);
 
 }
