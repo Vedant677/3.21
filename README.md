@@ -1,7 +1,7 @@
 # 3.21 This is a code for 3.21 and 4.22 question in the OS Concept book.
 
-The question is:
-3.21-
+
+## 3.21-
 The Collatz conjecture concerns what happens when we take any positive integer n and apply the following algorithm:
 n =
 { n∕2, if n is even
@@ -21,7 +21,7 @@ the program. Perform necessary error checking to ensure that a positive
 integer is passed on the command line.
 
 
-4.22-
+## 4.22-
 Write a multithreaded program that calculates various statistical values
 for a list of numbers. This program will be passed a series of numbers
 on the command line and will then create three separate worker threads.
@@ -44,5 +44,5 @@ REFRENCES FOR THE CODE:
 - Used gfg for 3.21 question and the ppt on lecture-5
 - https://www.geeksforgeeks.org/fork-system-call/
 - For multithreading i refered a youtube video and then GFG for better understanding.
-- I refered homeworklib for some steps as I was confused.
+- I refered homeworklib for some steps also.
 - https://www.homeworklib.com/qaa/1707080/write-in-c-program-write-a-multi-threaded-program
