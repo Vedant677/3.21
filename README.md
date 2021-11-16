@@ -38,3 +38,11 @@ the parent thread will output the values once the workers have exited.
 (We could obviously expand this program by creating additional threads
 that determine other statistical values, such as median and standard
 deviation.)
+
+
+REFRENCES FOR THE CODE:
+- Used gfg for 3.21 question and the ppt on lecture-5
+- https://www.geeksforgeeks.org/fork-system-call/
+- Dint understand the proper working on the pthread and still have a bit of confusion.
+- I refered homeworklib for some steps as I was confused.
+- https://www.homeworklib.com/qaa/1707080/write-in-c-program-write-a-multi-threaded-program
